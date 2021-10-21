@@ -1,10 +1,7 @@
-package file_handling;
+package PTIT;
 import java.io.*;
 
-/**
- *
- * @author giasutinhoc.vn
- */
+
 public class Hellofile {
     public static void main(String[] args) throws IOException {
         InputStream input = new FileInputStream("Hello.txt");
