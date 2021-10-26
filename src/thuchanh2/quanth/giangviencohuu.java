@@ -1,8 +1,8 @@
-package thuchanh2.bai4;
+package thuchanh2.quanth;
 
 import java.util.Scanner;
 
-public class giangviencohuu extends giangvien{
+public class giangviencohuu extends giangvien implements Tingluong{
     private int sogioquymuc;
 
     @Override
@@ -14,9 +14,16 @@ public class giangviencohuu extends giangvien{
     }
 
     @Override
+    public double getTinh(){
+        return sogioquymuc*super.getHocvi()*140;
+    }
+
+
+
+    @Override
     public String toString() {
-        return "giangviencohuu{" +
-                "sogioquymuc=" + sogioquymuc +
+        return super.toString()+" giangviencohuu{" +
+                "sogioquymuc=" + sogioquymuc + " luong"+ getTinh()+
                 '}';
     }
     public giangviencohuu() {

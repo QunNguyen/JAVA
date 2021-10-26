@@ -2,13 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64887587-31fb-4680-80a3-7664492417d9" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/src/thuchanh2/bai5/ChucNang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thuchanh2/bai5/Giaodich.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thuchanh2/bai5/Giaodichtiente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thuchanh2/bai5/Giaodichvang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thuchanh2/bai5/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thuchanh2/bai5/Quanligiaodich.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thuchanh/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thuchanh2/quanth/Tingluong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thuchanh2/quanth/giaovienthinhgiang.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/thuchanh2/bai4/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA/thuchanh2/bai4/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/thuchanh2/bai4/giangviencohuu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA/thuchanh2/bai4/giangviencohuu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thuchanh2/bai4/Chucnang.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thuchanh2/bai4/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thuchanh2/bai4/QLGV.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thuchanh2/bai4/giangvien.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thuchanh2/bai4/giangviencohuu.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,13 +26,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -49,21 +55,25 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/ktra2" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="thuchanh2.bai5" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="thuchanh2.quanth" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thuchanh2.bai2.Main" />
       <module name="JAVA" />
@@ -90,6 +100,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thuchanh2.quanth.Main" />
+      <module name="JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thuchanh2.quanth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thuchanh2.bai4.Main" />
+      <module name="JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thuchanh2.bai4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="bai1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thuchanh2.bai1.bai1" />
       <module name="JAVA" />
@@ -103,50 +139,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bai1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Baitaplon.bai1" />
-      <module name="JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Baitaplon.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Baitaplon.demo" />
-      <module name="JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Baitaplon.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.bai1 (1)" />
-        <item itemvalue="Application.bai1" />
-        <item itemvalue="Application.demo" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +159,8 @@
       <updated>1634620318882</updated>
       <workItem from="1634833429132" duration="437000" />
       <workItem from="1634833902220" duration="263000" />
-      <workItem from="1634911293241" duration="2938000" />
+      <workItem from="1634911293241" duration="3578000" />
+      <workItem from="1634953573161" duration="17000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1634828214006</created>
@@ -200,6 +200,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="update" />
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
