@@ -11,32 +11,26 @@ import java.util.Vector;
 public class Sokhacnhautrongfile1 {
     public static void main(String[] args) {
         try {
-            FileReader fr=new FileReader("DATA.in");
+            FileReader fr=new FileReader("src/Baitaplon/1.txt");
             int k;
             Vector a=new Vector<>();
             String s="";
             while(true) {
                 k = fr.read();
-                if(k == -1) {
-                    a.add(Integer.parseInt(s));
-                    break;
+                char c=(char)k;
+                if('0'<=c&&c<='9'){
+                    s+=c;
+                } else {
+                    if(s!="") a.add(Integer.parseInt(s));
+                    s="";
                 }
-                else {
-                    int t = k - '0';
-                    if (0 <= t && t <= 9) s += (char) k;
-                    else {
-                        if (s != "") a.add(Integer.parseInt(s));
-                        s = "";
-                    }
+                if(k == -1) {
+                    break;
                 }
             }
             fr.close();
 
             Collections.sort(a);
-//            for (int i = 0; i < a.size(); i++) {
-//                System.out.printf(a.get(i)+" ");
-//            }
-//            System.out.println();
             int dem=1;
             for (int i = 1; i <a.size(); i++) {
                 if(a.get(i)==a.get(i-1)){

@@ -2,32 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64887587-31fb-4680-80a3-7664492417d9" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/src/Baitaplon/1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Baitaplon/Theard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PTIT/Docfilevanban.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PTIT/Sapxepdanhsachmathang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PTIT/Sokhacnhautrongfile1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA/Baitaplon/Bangdiemthisinh.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA/Baitaplon/Giao2mangr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA/Baitaplon/bai1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA/Baitaplon/dayuuthe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA/Baitaplon/demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA/Baitaplon/sinhvien.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA/Baitaplon/test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA/thuchanh2/quanth/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA/thuchanh2/quanth/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA/thuchanh2/quanth/giangviencohuu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA/thuchanh2/quanth/giangviencohuu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA/thuchanh2/quanth/giaovienthinhgiang.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA/thuchanh2/quanth/giaovienthinhgiang.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Baitaplon/Bangdiemthisinh.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Baitaplon/Bangdiemthisinh2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Baitaplon/Giao2mangr.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Baitaplon/bai1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Baitaplon/dayuuthe.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Baitaplon/demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Baitaplon/demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Baitaplon/test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thuchanh2/quanth/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thuchanh2/quanth/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thuchanh2/quanth3.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/Baitaplon/Theard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/PTIT/Sokhacnhautrongfile1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA/PTIT/Sokhacnhautrongfile1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/thuchanh2/bai1/IntlPhoneNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/thuchanh2/bai1/PhoneNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/thuchanh2/bai1/Phonebook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/thuchanh2/bai1/bai1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/thuchanh2/bai2/Bao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/thuchanh2/bai2/ChucNang.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/thuchanh2/bai2/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/thuchanh2/bai2/Quanlitailieu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/thuchanh2/bai2/Sach.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/thuchanh2/bai2/TaiLieu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/thuchanh2/bai2/TapChi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/thuchanh2/bai2/Tinhthang.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/thuchanh2/bai4/Chucnang.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/thuchanh2/bai4/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/thuchanh2/bai4/QLGV.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/thuchanh2/bai4/giangvien.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/thuchanh2/bai4/giangviencohuu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/thuchanh2/bai5/ChucNang.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/thuchanh2/bai5/Giaodich.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/thuchanh2/bai5/Giaodichtiente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/thuchanh2/bai5/Giaodichvang.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/thuchanh2/bai5/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/thuchanh2/bai5/Quanligiaodich.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/thuchanh2/quanth/Chucnang.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/thuchanh2/quanth/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/thuchanh2/quanth/QLGV$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/thuchanh2/quanth/QLGV.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/thuchanh2/quanth/Tingluong.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/thuchanh2/quanth/giangvien.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/thuchanh2/quanth/giangviencohuu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/thuchanh2/quanth/giaovienthinhgiang.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Baitaplon/Theard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Baitaplon/demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PTIT/Sokhacnhautrongfile1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PTIT/Sokhacnhautrongfile1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +83,6 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/ktra2" />
@@ -87,7 +97,7 @@
       <recent name="thuchanh2.quanth" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Theard">
+  <component name="RunManager" selected="Application.Sokhacnhautrongfile1">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -166,9 +176,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sokhacnhautrongfile1" />
         <item itemvalue="Application.Theard" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Sokhacnhautrongfile1" />
         <item itemvalue="Application.Sapxepdanhsachmathang" />
         <item itemvalue="Application.Main (3)" />
       </list>
@@ -195,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634828214006</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update">
+      <created>1635347226672</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1635347226672</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
