@@ -1,4 +1,4 @@
-package thuchanh2.bai2;
+package thuchanh.bai2;
 
 public interface ChucNang {
     boolean nhap(TaiLieu p);

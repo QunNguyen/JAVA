@@ -1,4 +1,4 @@
-package thuchanh2.bai1;
+package thuchanh.bai1;
 
 import java.util.Scanner;
 

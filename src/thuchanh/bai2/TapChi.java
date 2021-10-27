@@ -1,4 +1,4 @@
-package thuchanh2.bai2;
+package thuchanh.bai2;
 
 import java.text.ParseException;
 import java.util.Scanner;

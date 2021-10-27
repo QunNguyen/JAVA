@@ -2,18 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64887587-31fb-4680-80a3-7664492417d9" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thuchanh/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thuchanh2/quanth/Tingluong.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thuchanh2/quanth/giaovienthinhgiang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Baitaplon/1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Baitaplon/Theard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PTIT/Docfilevanban.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PTIT/Sapxepdanhsachmathang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PTIT/Sokhacnhautrongfile1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA/thuchanh2/bai4/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA/thuchanh2/bai4/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA/thuchanh2/bai4/giangviencohuu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA/thuchanh2/bai4/giangviencohuu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thuchanh2/bai4/Chucnang.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thuchanh2/bai4/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thuchanh2/bai4/QLGV.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thuchanh2/bai4/giangvien.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thuchanh2/bai4/giangviencohuu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/Baitaplon/Bangdiemthisinh.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/Baitaplon/Giao2mangr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/Baitaplon/bai1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/Baitaplon/dayuuthe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/Baitaplon/demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/Baitaplon/sinhvien.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/Baitaplon/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/thuchanh2/quanth/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA/thuchanh2/quanth/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/thuchanh2/quanth/giangviencohuu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA/thuchanh2/quanth/giangviencohuu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/thuchanh2/quanth/giaovienthinhgiang.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA/thuchanh2/quanth/giaovienthinhgiang.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Baitaplon/Bangdiemthisinh.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Baitaplon/Bangdiemthisinh2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Baitaplon/Giao2mangr.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Baitaplon/bai1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Baitaplon/dayuuthe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Baitaplon/demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Baitaplon/demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Baitaplon/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thuchanh2/quanth/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thuchanh2/quanth/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thuchanh2/quanth3.zip" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +40,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -73,39 +87,24 @@
       <recent name="thuchanh2.quanth" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thuchanh2.bai2.Main" />
-      <module name="JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="thuchanh2.bai2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager" selected="Application.Theard">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thuchanh2.bai5.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thuchanh.quanth.Main" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thuchanh2.bai5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thuchanh2.quanth.Main" />
-      <module name="JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="thuchanh2.quanth.*" />
+          <option name="PATTERN" value="thuchanh.quanth.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +113,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thuchanh2.bai4.Main" />
+      <option name="MAIN_CLASS_NAME" value="thuchanh.bai4.Main" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thuchanh2.bai4.*" />
+          <option name="PATTERN" value="thuchanh.bai4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +125,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bai1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thuchanh2.bai1.bai1" />
+    <configuration name="Sapxepdanhsachmathang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PTIT.Sapxepdanhsachmathang" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thuchanh2.bai1.*" />
+          <option name="PATTERN" value="PTIT.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sokhacnhautrongfile1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PTIT.Sokhacnhautrongfile1" />
+      <module name="JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PTIT.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Theard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Baitaplon.Theard" />
+      <module name="JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Baitaplon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Theard" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.bai1 (1)" />
+        <item itemvalue="Application.Sokhacnhautrongfile1" />
+        <item itemvalue="Application.Sapxepdanhsachmathang" />
+        <item itemvalue="Application.Main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -161,6 +186,7 @@
       <workItem from="1634833902220" duration="263000" />
       <workItem from="1634911293241" duration="3578000" />
       <workItem from="1634953573161" duration="17000" />
+      <workItem from="1635323120165" duration="2301000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1634828214006</created>

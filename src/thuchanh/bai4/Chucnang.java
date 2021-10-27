@@ -1,4 +1,4 @@
-package thuchanh2.bai4;
+package thuchanh.bai4;
 
 public interface Chucnang {
     boolean nhap(giangvien q);

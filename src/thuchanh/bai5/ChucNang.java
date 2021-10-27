@@ -1,4 +1,4 @@
-package thuchanh2.bai5;
+package thuchanh.bai5;
 
 public interface ChucNang {
     boolean nhap(Giaodich g);

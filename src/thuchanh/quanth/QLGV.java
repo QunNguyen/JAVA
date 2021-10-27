@@ -1,4 +1,4 @@
-package thuchanh2.quanth;
+package thuchanh.quanth;
 
 import java.util.*;
 

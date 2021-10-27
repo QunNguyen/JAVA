@@ -1,2 +1,5 @@
-package Baitaplon;public class demo {
+package Baitaplon;
+
+public class demo extends Thread{
+
 }
