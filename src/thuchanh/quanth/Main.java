@@ -46,6 +46,7 @@ public class Main {
                     break;
                 case 4:
                     q.sapxep();
+                    q.danhsach();
                     break;
                 case 5:
                     q.xoa();
