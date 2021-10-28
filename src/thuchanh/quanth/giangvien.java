@@ -19,8 +19,6 @@ abstract class giangvien {
     }
 
 
-    public abstract double getTinh();
-
     @Override
     public String toString() {
         return "giangvien{" +

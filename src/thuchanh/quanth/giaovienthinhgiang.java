@@ -2,7 +2,7 @@ package thuchanh.quanth;
 
 import java.util.Scanner;
 
-class giaovienthinhgiang extends giangvien {
+class giaovienthinhgiang extends giangvien implements Tinhluong {
     private int sogiodaytrongthang;
 
     @Override
@@ -17,6 +17,11 @@ class giaovienthinhgiang extends giangvien {
     @Override
     public double getTinh() {
        return sogiodaytrongthang*super.getHocvi()*160;
+    }
+
+    @Override
+    public double getLuong() {
+        return getTinh();
     }
 
     @Override

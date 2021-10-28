@@ -1,5 +1,5 @@
 package thuchanh.quanth;
 
-public interface Tingluong {
+public interface Tinhluong {
     double getTinh();
 }

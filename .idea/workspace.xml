@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64887587-31fb-4680-80a3-7664492417d9" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/src/PTIT/Ketquaxettuyen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PTIT/Bangthunhapgiaovien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PTIT/Quanlikhoxangdau.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA/thuchanh/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/PTIT/Ketquaxettuyen$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/PTIT/Ketquaxettuyen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA/PTIT/Ketquaxettuyen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/thuchanh/quanth/Tingluong.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/thuchanh/quanth/giangvien.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA/thuchanh/quanth/giangvien.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/thuchanh/quanth/giangviencohuu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA/thuchanh/quanth/giangviencohuu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/thuchanh/quanth/giaovienthinhgiang.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA/thuchanh/quanth/giaovienthinhgiang.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thuchanh/quanth/QLGV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thuchanh/quanth/QLGV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thuchanh/quanth/Tingluong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thuchanh/quanth/Tinhluong.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thuchanh/quanth/giangvien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thuchanh/quanth/giangvien.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thuchanh/quanth/giangviencohuu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thuchanh/quanth/giangviencohuu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thuchanh/quanth/giaovienthinhgiang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thuchanh/quanth/giaovienthinhgiang.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +74,7 @@
       <recent name="thuchanh2.quanth" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Ketquaxettuyen">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -71,6 +82,19 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Bangthunhapgiaovien" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PTIT.Bangthunhapgiaovien" />
+      <module name="JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PTIT.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -89,11 +113,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thuchanh.bai4.Main" />
+      <option name="MAIN_CLASS_NAME" value="thuchanh.quanth.Main" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thuchanh.bai4.*" />
+          <option name="PATTERN" value="thuchanh.quanth.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,8 +125,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sapxepdanhsachmathang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PTIT.Sapxepdanhsachmathang" />
+    <configuration name="Quanlikhoxangdau" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PTIT.Quanlikhoxangdau" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
@@ -127,26 +151,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Theard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Baitaplon.Theard" />
-      <module name="JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Baitaplon.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Quanlikhoxangdau" />
+        <item itemvalue="Application.Bangthunhapgiaovien" />
         <item itemvalue="Application.Ketquaxettuyen" />
         <item itemvalue="Application.Sokhacnhautrongfile1" />
-        <item itemvalue="Application.Theard" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Sapxepdanhsachmathang" />
       </list>
     </recent_temporary>
   </component>

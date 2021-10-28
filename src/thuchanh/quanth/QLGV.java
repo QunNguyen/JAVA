@@ -42,7 +42,6 @@ public class QLGV implements Chucnang{
                 return 1;
             }
         });
-        danhsach();
     }
 
     @Override

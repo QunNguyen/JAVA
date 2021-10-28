@@ -2,7 +2,7 @@ package thuchanh.quanth;
 
 import java.util.Scanner;
 
-public class giangviencohuu extends giangvien implements Tingluong{
+public class giangviencohuu extends giangvien implements Tinhluong {
     private int sogioquymuc;
 
     @Override
@@ -14,16 +14,20 @@ public class giangviencohuu extends giangvien implements Tingluong{
     }
 
     @Override
-    public double getTinh(){
+    public double getTinh()
+    {
         return sogioquymuc*super.getHocvi()*140;
     }
 
-
+    @Override
+    public double getLuong() {
+        return getTinh();
+    }
 
     @Override
     public String toString() {
         return super.toString()+" giangviencohuu{" +
-                "sogioquymuc=" + sogioquymuc + " luong"+ getTinh()+
+                "sogioquymuc=" + sogioquymuc + " luong="+ getTinh()+
                 '}';
     }
     public giangviencohuu() {
