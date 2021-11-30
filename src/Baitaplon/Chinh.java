@@ -1,6 +1,4 @@
-package PTIT;
-
-import javafx.print.Collation;
+package Baitaplon;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -16,23 +14,28 @@ public class Chinh {
     public static void main(String[] args) {
         FileReader fr=null;
         try {
-            fr=new FileReader("src/Baitaplon/2.txt");//Data.in\
+            fr=new FileReader("src/Baitaplon/1.txt");//Data.in\
             BufferedReader br=new BufferedReader(fr);
             String s;
 
             List<sinhvienfile1> list=new ArrayList<>();
             int demcheckso=0;
+            int dem=0;
             String a="";
             while((s = br.readLine()) != null) {
                 if(demcheckso>0){
-                    a+=s+" ";
-                   if(demcheckso==3){
-                       sinhvienfile1 std=new sinhvienfile1();
-                       std.input(a);
-                       list.add(std);
-                       a="";
-                       demcheckso=0;
-                   }
+                    if(dem==0){
+                        dem++;
+                        continue;
+                    }
+                    if (demcheckso<=3) {
+                        System.out.print(s);
+                    }
+                    else {
+                        demcheckso=0;
+                        System.out.println();
+                    }
+                    demcheckso++;
                 }
                 demcheckso++;
             }
@@ -40,7 +43,7 @@ public class Chinh {
             Collections.sort(list, new Comparator<sinhvienfile1>() {
                 @Override
                 public int compare(sinhvienfile1 o1, sinhvienfile1 o2) {
-                    if(o1.soluong.compareTo(o2.soluong)<0){
+                    if(o1.ma.compareTo(o2.ma)<0){
                         return -1;
                     }
                     return 1;
@@ -70,7 +73,6 @@ class sinhvienfile1{
     String ten;
     String ma;
     String soluong;
-    int so;
 
     public void input(String s){
         String[]a=s.split("\\s");

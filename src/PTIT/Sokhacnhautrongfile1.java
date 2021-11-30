@@ -1,52 +1,27 @@
 package PTIT;
 
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.Collections;
-import java.util.Vector;
-
-
-
-public class Sokhacnhautrongfile1 {
-    public static void main(String[] args) {
-        try {
-            FileReader fr=new FileReader("src/Baitaplon/1.txt");
-            int k;
-            Vector a=new Vector<>();
-            String s="";
-            while(true) {
-                k = fr.read();
-                char c=(char)k;
-                if('0'<=c&&c<='9'){
-                    s+=c;
-                } else {
-                    if(s!="") a.add(Integer.parseInt(s));
-                    s="";
-                }
-                if(k == -1) {
-                    break;
-                }
+import java.util.*;
+import java.io.*;
+public class Sokhacnhautrongfile1
+{
+    public static void main(String[] args) throws IOException {
+        Scanner sc = new Scanner(new File("DATA.in"));
+        TreeMap<Integer,Integer> M = new TreeMap<Integer,Integer>();
+        while(sc.hasNextInt())
+        {
+            int tmp = sc.nextInt();
+            if(M.containsKey(tmp))
+            {
+                M.replace(tmp, M.get(tmp)+1);
             }
-            fr.close();
-
-            Collections.sort(a);
-            int dem=1;
-            for (int i = 1; i <a.size(); i++) {
-                if(a.get(i)==a.get(i-1)){
-                    dem++;
-                }
-                else {
-                    System.out.println(a.get(i-1)+" "+dem);
-                    dem=1;
-                }
+            else
+            {
+                M.put(tmp, 1);
             }
-            System.out.println(a.get(a.size()-1)+" "+dem);
-
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
+        }
+        for(Map.Entry<Integer,Integer> i : M.entrySet())
+        {
+            System.out.println(i.getKey()+" "+i.getValue());
         }
     }
 }

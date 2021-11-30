@@ -1,2 +1,4 @@
-package Project;public class test {
+package Project;
+
+public class test {
 }

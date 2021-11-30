@@ -1,2 +1,5 @@
-package Project;public class Sanpham {
+package Project;
+
+public class Sanpham {
+    private String ma;
 }
